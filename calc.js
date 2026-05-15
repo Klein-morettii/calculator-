@@ -101,15 +101,18 @@ buttons.forEach(buttons =>
             else if(buttons.textContent === "x^2"){
                 display.textContent = state.firstValue+"^2"
                 result.textContent = state.firstValue * state.firstValue
+                state.resultShown = true
             }
             else if(buttons.textContent === "x^1/2"){
                 display.textContent = state.firstValue+"x^1/2"
                 result.textContent = Math.sqrt(state.firstValue)
+                state.resultShown = true
             }
             else if(buttons.textContent === "1/x"){
                 display.textContent = ""
                 display.textContent = "1/("+state.firstValue+")"
                 result.textContent = 1 / state.firstValue
+                state.resultShown = true
             }
             else if(buttons.textContent === "pi"){
                 const pi = 3.14159
@@ -126,6 +129,7 @@ buttons.forEach(buttons =>
                         display.textContent = state.firstValue+"%"
                         state.firstValue = parseFloat(state.firstValue)/100
                         result.textContent = state.firstValue
+                        state.resultShown = true
                     }
                     else{
                         const length = state.secondValue.length
