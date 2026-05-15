@@ -1,0 +1,77 @@
+body{
+    background-color: aquamarine;
+    
+}
+
+button{
+    width: 80px;
+    height: 50px;
+    border-color: snow;
+    border-radius: 10px;
+}
+#heading{
+    text-align: center;
+
+}
+
+#wrapper{
+    display: flex;
+    padding-top: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+#brand{
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+#mainBox{
+    display: block;
+    width: 450px;
+    height: 650px;
+    padding: 25px;
+    padding-top: 25px;
+    border-radius: 10px;
+    background-color: gray;
+}
+
+#outBox{
+    display: block;
+    width: 445px;
+    height: 100px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#firstLine{
+    display: flex;
+    padding-top: 3em;
+    justify-content: space-evenly;
+}
+#secondLine{
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-evenly;
+}
+#thirdLine{
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-evenly;
+}
+#fourthLine{
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-evenly;
+}
+#fifthLine{
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-evenly;
+}
+#sixthLine{
+    display: flex;
+    padding-top: 2em;
+    justify-content: space-evenly;
+}
